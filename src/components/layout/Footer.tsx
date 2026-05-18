@@ -11,9 +11,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {portfolioData.name}. All rights
             reserved.
           </p>
-          <p className="text-slate-600 text-xs mt-1">
-            Built with &#10084; in Antigravity
-          </p>
+         
         </div>
 
         <SocialIcons variant="footer" />
