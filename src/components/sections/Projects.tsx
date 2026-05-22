@@ -14,6 +14,8 @@ export function ProjectsSection() {
           {portfolioData.projects.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}
+
+          
         </div>
       </div>
     </section>
