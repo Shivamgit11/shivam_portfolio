@@ -239,5 +239,21 @@ export const portfolioData: PortfolioData = {
       github: "",
       thumbnail: "/images/projects/social-dashboard.webp",
     },
+    {
+      title: "Immigration Gurus Platform",
+      description:
+        "Contributed to the development and maintenance of Immigration Gurus, a consultancy platform for immigration and visa services. Built responsive frontend modules, integrated APIs, optimized user experience, and implemented scalable dashboard functionalities for managing leads, clients, and application workflows.",
+      techStack: [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      link: "https://www.immigrationgurus.com/",
+      github: "",
+      thumbnail: "/images/projects/immigration-gurus.webp",
+    },
   ],
 };
