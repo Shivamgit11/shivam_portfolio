@@ -68,7 +68,7 @@ export const portfolioData: PortfolioData = {
 
     {
       platform: "Email",
-      url: "mailto:mailtoshivam2002@gmail.com",
+      url: "mailto:shivamkumar2002.dev@gmail.com",
       icon: "Mail",
     },
   ],
@@ -179,7 +179,7 @@ export const portfolioData: PortfolioData = {
         "MongoDB",
         "Tailwind CSS",
       ],
-      link: "",
+      link: "https://www.ecollat.com/solutions/crm/",
       github: "",
       thumbnail: "/images/projects/crm-dashboard.webp",
     },
