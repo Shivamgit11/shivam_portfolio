@@ -51,7 +51,7 @@ export const portfolioData: PortfolioData = {
   name: "Shivam Kumar",
   role: "React (Mern Stack) Developer",
   about:
-    "I’m a Frontend-Focused Full Stack Developer with 3+ years of experience building scalable web applications, interactive dashboards, and high-performance user interfaces. My expertise spans React.js, Next.js, JavaScript, TypeScript, and modern frontend architecture, with strong backend experience in Node.js, Express.js, MongoDB, and MySQL. I’ve worked extensively on CRM systems, admin panels, and AI-powered applications, giving me a solid foundation across both frontend engineering and full-stack development.",
+    "I’m a Frontend-Focused Full Stack Developer with 2.5+ years of experience building scalable web applications, interactive dashboards, and high-performance user interfaces. My expertise spans React.js, Next.js, JavaScript, TypeScript, and modern frontend architecture, with strong backend experience in Node.js, Express.js, MongoDB, and MySQL. I’ve worked extensively on CRM systems, admin panels, and AI-powered applications, giving me a solid foundation across both frontend engineering and full-stack development.",
   profileImage: "/images/shivam_profile_pic.webp",
   // blogUrl: "https://medium.com/@shivam",
   social: [
@@ -181,7 +181,7 @@ export const portfolioData: PortfolioData = {
       ],
       link: "https://www.ecollat.com/solutions/crm/",
       github: "",
-      thumbnail: "/images/projects/crm-dashboard.webp",
+      thumbnail: "/images/projects/crm.png",
     },
     {
       title: "Cengage Management Dashboard",
@@ -197,17 +197,17 @@ export const portfolioData: PortfolioData = {
       ],
       link: "",
       github: "",
-      thumbnail: "/images/projects/cengage-dashboard.webp",
+      thumbnail: "/images/projects/cengagedashboard.jpg",
     },
-    {
-      title: "AI Practice Question Generator",
-      description:
-        "Developed an AI-powered platform capable of generating over 2 million practice questions using OpenAI APIs and LangChain, with optimized backend architecture for scalability and cost efficiency.",
-      techStack: ["Node.js", "MongoDB", "Redis", "LangChain", "OpenAI API"],
-      link: "",
-      github: "",
-      thumbnail: "/images/projects/ai-generator.webp",
-    },
+    // {
+    //   title: "AI Practice Question Generator",
+    //   description:
+    //     "Developed an AI-powered platform capable of generating over 2 million practice questions using OpenAI APIs and LangChain, with optimized backend architecture for scalability and cost efficiency.",
+    //   techStack: ["Node.js", "MongoDB", "Redis", "LangChain", "OpenAI API"],
+    //   link: "",
+    //   github: "",
+    //   thumbnail: "/images/projects/ai-generator.webp",
+    // },
     {
       title: "Real Estate CRM",
       description:
@@ -222,7 +222,7 @@ export const portfolioData: PortfolioData = {
       ],
       link: "",
       github: "",
-      thumbnail: "/images/projects/realestate-crm.webp",
+      thumbnail: "/images/projects/virani-crm.png",
     },
     {
       title: "Social Media Admin Dashboard",
@@ -237,7 +237,7 @@ export const portfolioData: PortfolioData = {
       ],
       link: "",
       github: "",
-      thumbnail: "/images/projects/social-dashboard.webp",
+      thumbnail: "/images/projects/social-media.jpg",
     },
     {
       title: "Immigration Gurus Platform",
@@ -253,7 +253,7 @@ export const portfolioData: PortfolioData = {
       ],
       link: "https://www.immigrationgurus.com/",
       github: "",
-      thumbnail: "/images/projects/immigration-gurus.webp",
+      thumbnail: "/images/projects/immigration-gurus.png",
     },
   ],
 };

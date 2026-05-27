@@ -40,6 +40,7 @@ export function Navbar() {
     const observerCallback: IntersectionObserverCallback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          console.log(entry.target.id);
           setActiveSection(entry.target.id);
         }
       });
@@ -100,6 +101,8 @@ export function Navbar() {
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
             const isActive = activeSection === link.href.substring(1);
+
+          
             return (
               <Link
                 key={link.name}
